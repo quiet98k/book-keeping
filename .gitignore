@@ -396,3 +396,118 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+*.pyc
+db.sqlite3
+db./frontend/bundles/*
+/frontend/webpack_bundles/*
+/webpack-stats.json
+
+# Sass
+.sass-cache
+*.map
+
+# General
+/{{project_name}}-venv/
+/.venv/
+/env/
+/output/
+/cache/
+boilerplate.zip
+
+# Spritesmith
+spritesmith-generated/
+spritesmith.scss
+
+# templated email
+tmp_email/
+
+.direnv
+.envrc
+.tool-versions
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Database Files
+*.sqlite3
+
+# Django Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Log Files
+*.log
+
+# Media Files
+/media/
+
+# Static Files
+/static/
+
+# Local Settings
+local_settings.py
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints
+
+# IDE Specific Files
+.vscode/
+.idea/
+
+# Coverage Reports
+htmlcov/
+.coverage
+
+# Test Output
+junit-xml/3-journal
+.DS_Store
+.env
+**/settings/local.py
+/staticfiles/*
+/mediafiles/*
+__pycache__/
+/.vscode/
+
+# coverage result
+.coverage
+/coverage/
+
+# pycharm
+.idea/
+
+# data
+*.dump
+
+# npm
+node_modules/
+npm-debug.log
+
+# Webpack
+/frontend/bundles/*
+/frontend/webpack_bundles/*
+/webpack-stats.json
+
+# Sass
+.sass-cache
+*.map
+
+# General
+/{{project_name}}-venv/
+/.venv/
+/env/
+/output/
+/cache/
+boilerplate.zip
+
+# Spritesmith
+spritesmith-generated/
+spritesmith.scss
+
+# templated email
+tmp_email/
+
+.direnv
+.envrc
+.tool-versions
