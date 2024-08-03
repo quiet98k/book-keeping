@@ -47,5 +47,3 @@ class Transaction(models.Model):
 
     def __str__(self):
         return f'{self.description} - {self.amount} {self.currency} on {self.date}'
-    
-

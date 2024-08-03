@@ -1,3 +1,4 @@
+# core/views.py
 from rest_framework import viewsets
 from .models import MoneyAccount, User, Transaction
 from .serializers import MoneyAccountSerializer, UserSerializer, TransactionSerializer
